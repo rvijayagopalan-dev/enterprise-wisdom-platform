@@ -12,6 +12,7 @@ import {
   Bot,
   Brain,
   ChevronRight,
+  GraduationCap,
 } from 'lucide-react'
 
 const navItems = [
@@ -21,6 +22,7 @@ const navItems = [
   { href: '/capabilities', label: 'Capabilities', icon: BarChart3 },
   { href: '/investment', label: 'Investment & ROI', icon: TrendingUp },
   { href: '/advisor', label: 'AI Advisor', icon: Bot },
+  { href: '/learning', label: 'Learning Academy', icon: GraduationCap },
 ]
 
 export default function Sidebar() {
